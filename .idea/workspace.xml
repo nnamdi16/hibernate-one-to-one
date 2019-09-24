@@ -168,7 +168,7 @@
       <workItem from="1569319103438" duration="21999000" />
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
-      <workItem from="1569358535681" duration="188000" />
+      <workItem from="1569358535681" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
