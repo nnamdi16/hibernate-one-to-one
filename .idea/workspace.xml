@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a65e1fd-83ec-4198-9113-a8e7e8a5de7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/CreateDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/company/hibernate/demo/DeleteDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +170,7 @@
       <workItem from="1569319103438" duration="21999000" />
       <workItem from="1569358112085" duration="237000" />
       <workItem from="1569358405217" duration="108000" />
-      <workItem from="1569358535681" duration="4937000" />
+      <workItem from="1569358535681" duration="5187000" />
     </task>
     <task id="LOCAL-00001" summary="Add the various jar files and built them using Add libraries in intelliJ after right-clicking or modules in project structure. Check if the Class TestJdbc was connected to the database, add hibernate.cfg.xml file, Create a Student class mapping it using @Entity annotation to map it to the student table.">
       <created>1569321790057</created>
@@ -293,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569361413352</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL">
+      <created>1569363739569</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569363739569</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +337,8 @@
     <MESSAGE value="Add InstructionDetail and Instructor class" />
     <MESSAGE value="Create an InstructorDetail class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field which is generated on the db, Create a getter and setter method for all fields and override a toString method." />
     <MESSAGE value="Create an Instructor class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field and the foreign key which is the instructor_detail_id, showing entity relationship(one-to-one relationship) which is generated on the db, Create a getter and setter method for all fields and override a toString method, annotate the foreign key with a one-one annotations using Cascade.ALL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create an Instructor class, annotate the class and map it to a table in the schema , create fields and map them to columns in the table, create a non-argument constructor and a constructor with all other fields apart from the id field and the foreign key which is the instructor_detail_id, showing entity relationship(one-to-one relationship) which is generated on the db, Create a getter and setter method for all fields and override a toString method, annotate the foreign key with a one-one annotations using Cascade.ALL" />
+    <MESSAGE value="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a main or controller class CreateDemo, create session factory, create session, create an instance of an instructor and an InstructorDetail, start the transaction, saved and committed it. Implementing CascadeType.ALL" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
